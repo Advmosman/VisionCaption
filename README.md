@@ -1,4 +1,4 @@
-# VisionCaption – AI Image Caption Generator
+# VisionCaption – AI mage Caption Generator
 
 VisionCaption is an AI-powered web application that generates captions for uploaded images using the BLIP model.
 
