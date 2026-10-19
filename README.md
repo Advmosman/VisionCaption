@@ -1,41 +1,45 @@
-# Image Caption Generator with Streamlit, Hugging Face, and PyTorch
+# VisionCaption – AI Image Caption Generator
 
-This repository contains a simple yet powerful image captioning application built with Streamlit, Hugging Face's transformers, and PyTorch. The application generates a descriptive caption for any uploaded image.
+VisionCaption is an AI-powered web application that generates captions for uploaded images using the BLIP model.
 
-## Overview
+## Live Demo
 
-The Image Caption Generator is a demonstration of integrating the Salesforce/blip-image-captioning-large model, a pretrained transformer model from Hugging Face, the PyTorch library, and Streamlit for creating interactive web applications. The application generates captions that provide a textual representation of the images, leading to a more comprehensive and engaging user experience. Importantly, this feature-rich image captioning application is implemented in less than 50 lines of code (excluding whitespace and comments)!
+Try the application here:
 
-### Key Features
+https://visioncaption-8y9fj9t6m7nw8x2ucqn7to.streamlit.app/
 
-- **Streamlit:** A powerful, fast Python framework used to create the web interface for the application.
-- **Hugging Face's Salesforce/blip-image-captioning-large:** A state-of-the-art image captioning AI model that generates the captions for the images.
-- **PyTorch:** A Python library used to load and interact with the pretrained AI model.
+## Features
 
-## How to Run
+- Upload an image in JPG, JPEG, or PNG format.
+- Generate a caption automatically using AI.
+- View the uploaded image and its generated caption in a simple web interface.
 
-### Prerequisites
+## Technologies Used
 
-- Python 3.6 or higher
+- Python
 - Streamlit
 - PyTorch
-- HuggingFace Transformers
+- Hugging Face Transformers
+- BLIP Image Captioning Model
 
-### Steps
+## Run Locally
 
-1. Clone this repository: ```git clone https://github.com/AustonianAI/image-caption-generator.git```
-2. Navigate to the project directory: ```cd image-caption-generator```
-3. Install the necessary Python packages using the command ```pip install -r requirements.txt```.
-4. Run the Streamlit app using the command ```streamlit run app.py```.
+1. Clone this repository:
 
-## Usage
+   `git clone https://github.com/Advmosman/VisionCaption.git`
 
-The Image Caption Generator allows users to upload an image. After the image has been uploaded, it generates a descriptive caption for the image based on the content and context of the image.
+2. Open the project folder:
 
-## Contribution
+   `cd VisionCaption`
 
-Contributions, issues, and feature requests are welcome. Feel free to check the Issues page if you want to contribute.
+3. Install the required packages:
 
-## License
+   `pip install -r requirements.txt`
 
-This project is licensed under the terms of the MIT license.
+4. Start the application:
+
+   `streamlit run main.py`
+
+## Author
+
+GitHub: https://github.com/Advmosman
